@@ -66,10 +66,16 @@
     animation-name: fade-right;
     animation-duration: 1s;
     animation-fill-mode: forwards;
+    @media (max-width: 1025px) {
+      grid-column-start: 2;
+    }
   }
   .hero-section__images {
     grid-column-start: 3;
     grid-column-end: 6;
+    @media (max-width: 1025px) {
+      grid-column-start: 1;
+    }
   }
   .hero-section {
     height: 100%;
